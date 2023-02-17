@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD42FEEF299F7BC2002651CF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42FEEE299F7BC2002651CF /* LocationManager.swift */; };
 		BDD07CB42953C05800ACCB5B /* UberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD07CB32953C05800ACCB5B /* UberApp.swift */; };
 		BDD07CB82953C05900ACCB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD07CB72953C05900ACCB5B /* Assets.xcassets */; };
 		BDD07CBB2953C05900ACCB5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD07CBA2953C05900ACCB5B /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD42FEEE299F7BC2002651CF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		BDD07CB02953C05800ACCB5B /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD07CB32953C05800ACCB5B /* UberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberApp.swift; sourceTree = "<group>"; };
 		BDD07CB72953C05900ACCB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		BDD07CC52953C12C00ACCB5B /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				BD42FEEE299F7BC2002651CF /* LocationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD42FEEF299F7BC2002651CF /* LocationManager.swift in Sources */,
 				BDD07CCA2953C1FF00ACCB5B /* UberMapViewRespresentable.swift in Sources */,
 				BDD07CB42953C05800ACCB5B /* UberApp.swift in Sources */,
 				BDD07CC82953C15D00ACCB5B /* HomeView.swift in Sources */,
@@ -330,6 +334,7 @@
 				DEVELOPMENT_TEAM = 9CKKGD4LXS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Send the Addy";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,6 +364,7 @@
 				DEVELOPMENT_TEAM = 9CKKGD4LXS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Send the Addy";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
