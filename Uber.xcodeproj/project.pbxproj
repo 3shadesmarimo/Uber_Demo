@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BD42FEEF299F7BC2002651CF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42FEEE299F7BC2002651CF /* LocationManager.swift */; };
+		BD42FEF529A15E94002651CF /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42FEF429A15E94002651CF /* LocationSearchActivationView.swift */; };
+		BD42FEF729A16374002651CF /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42FEF629A16374002651CF /* MapViewActionButton.swift */; };
 		BDD07CB42953C05800ACCB5B /* UberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD07CB32953C05800ACCB5B /* UberApp.swift */; };
 		BDD07CB82953C05900ACCB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD07CB72953C05900ACCB5B /* Assets.xcassets */; };
 		BDD07CBB2953C05900ACCB5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD07CBA2953C05900ACCB5B /* Preview Assets.xcassets */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		BD42FEEE299F7BC2002651CF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BD42FEF429A15E94002651CF /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		BD42FEF629A16374002651CF /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 		BDD07CB02953C05800ACCB5B /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD07CB32953C05800ACCB5B /* UberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberApp.swift; sourceTree = "<group>"; };
 		BDD07CB72953C05900ACCB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +45,39 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD42FEF029A15DF1002651CF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BD42FEED299F7372002651CF /* ViewModel */,
+				BDD07CC62953C14900ACCB5B /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BD42FEF129A15E25002651CF /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				BD42FEF229A15E49002651CF /* ViewModel */,
+				BD42FEF329A15E65002651CF /* Views */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		BD42FEF229A15E49002651CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD42FEF329A15E65002651CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD42FEF429A15E94002651CF /* LocationSearchActivationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BDD07CA72953C05800ACCB5B = {
@@ -92,8 +129,8 @@
 		BDD07CC22953C11600ACCB5B /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				BD42FEED299F7372002651CF /* ViewModel */,
-				BDD07CC62953C14900ACCB5B /* Views */,
+				BD42FEF129A15E25002651CF /* LocationSearch */,
+				BD42FEF029A15DF1002651CF /* Home */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -125,6 +162,7 @@
 			children = (
 				BDD07CC72953C15D00ACCB5B /* HomeView.swift */,
 				BDD07CC92953C1FF00ACCB5B /* UberMapViewRespresentable.swift */,
+				BD42FEF629A16374002651CF /* MapViewActionButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,9 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD42FEEF299F7BC2002651CF /* LocationManager.swift in Sources */,
+				BD42FEF729A16374002651CF /* MapViewActionButton.swift in Sources */,
 				BDD07CCA2953C1FF00ACCB5B /* UberMapViewRespresentable.swift in Sources */,
 				BDD07CB42953C05800ACCB5B /* UberApp.swift in Sources */,
 				BDD07CC82953C15D00ACCB5B /* HomeView.swift in Sources */,
+				BD42FEF529A15E94002651CF /* LocationSearchActivationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
